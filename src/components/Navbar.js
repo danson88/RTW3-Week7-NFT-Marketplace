@@ -24,9 +24,7 @@ const [currAddress, updateAddress] = useState('0x');
           <li className='flex items-end ml-5 pb-2'>
             <Link to="/">
             <img src="https://comic.land/images/Comic.land-logo_03.png"  alt="" width={180} height={120} className="inline-block -mt-2"/>
-            <div className='inline-block font-bold text-xl ml-2'>
-              NFT Marketplace
-            </div>
+             
             </Link>
           </li>
           <li className='w-2/6'>
