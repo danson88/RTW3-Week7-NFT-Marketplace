@@ -1,4 +1,4 @@
-//require('dotenv').config();
+ //require('dotenv').config();
 const key = process.env.REACT_APP_PINATA_KEY;
 const secret = process.env.REACT_APP_PINATA_SECRET;
 
@@ -63,6 +63,7 @@ export const uploadFileToIPFS = async(file) => {
         }
     });
     data.append('pinataOptions', pinataOptions);
+
 
     return axios 
         .post(url, data, {
