@@ -64,6 +64,7 @@ export const uploadFileToIPFS = async(file) => {
     });
     data.append('pinataOptions', pinataOptions);
 
+
     return axios 
         .post(url, data, {
             maxBodyLength: 'Infinity',
